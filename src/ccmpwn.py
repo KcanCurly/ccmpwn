@@ -328,9 +328,7 @@ class CCMEXEC:
 
         return 
 
-# Process command-line arguments.
-if __name__ == '__main__':
-
+def main():
     text_green = '\033[92m'
     text_blue = '\033[36m'
     text_yellow = '\033[93m'
@@ -429,3 +427,7 @@ v1.0.0\n""" + text_end)
             import traceback
             traceback.print_exc()
         logging.error(str(e))
+
+# Process command-line arguments.
+if __name__ == '__main__':
+    main()
