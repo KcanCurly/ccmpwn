@@ -10,8 +10,7 @@ setup(
     url="https://github.com/KcanCurly/ccmpwn",
     packages=find_packages(),
     install_requires=[
-        "xlsxwriter",
-        "sectools>=1.4.1",
+        "impacket",
     ],
     classifiers=[
         "Programming Language :: Python :: 3",
